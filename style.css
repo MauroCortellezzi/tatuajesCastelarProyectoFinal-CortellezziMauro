@@ -1,0 +1,56 @@
+.aparecer{
+    transform: skewX(13deg);
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: moveRight;
+    
+
+
+
+}
+
+@keyframes moveRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px);
+    }
+
+    from{
+        transform: skew(0px);
+    }
+
+    to {
+        transform: skew(13deg);
+    }
+  }
+.fototatuador{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+} 
+
+
+  
+.zoom:hover {
+    transform: scale(1.5);
+ }
+
+ .lista:hover{
+    background-color: coral;
+ }
+
+
+
